@@ -1,7 +1,5 @@
 #About
 
-=====
-
 The man behind the legend  ;)
 
 ## The Man:  Joshua Smith
@@ -17,7 +15,9 @@ great things aimed at breaking things.
 
 ## The Legend:
 
-### Experience Short Version
+### Experience
+
+####Short Version
 
 Extensive experience in executing and managing network vulnerability assessments
 & penetration tests.  Skilled in network vulnerability analysis including
@@ -30,7 +30,7 @@ navigate easily in Windows/Linux/Unix/OS X command-line and graphical
 environments.  Capable in multiple programming and scripting languages, but by
 far most proficient in Ruby.
 
-Long Version
+####Long Version
 
 * Senior Security Researcher, NSS Labs, Austin, TX  2012 - 2013
 
