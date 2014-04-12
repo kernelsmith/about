@@ -32,6 +32,15 @@ far most proficient in Ruby.
 
 ####Long Version
 
+* Senior Security Researcher, Hewlett-Packard's Zero Day Initiative, Austin, TX
+  July 2013 - Present
+
+  Evaluate and reverse engineer submitted and self-discovered zero-day
+  vulnerabilities for exploitability, root-cause analysis, and submission to
+  affected vendors for remediation.  Design and maintain internal resources
+  for tracking and discovering vulnerabilities as well as intellectual
+  property management.
+
 * Senior Security Researcher, NSS Labs, Austin, TX  2012 - 2013
 
   Researched and applied exploitation, evasion, & obfuscation techniques to add
