@@ -47,7 +47,7 @@ far most proficient in Ruby.
   security engineering support to various classified and unclassified programs,
   technical lead for US Government sponsored test project, cyber red team
   analyst, and vulnerability researcher.  Performed information security
-  assessments of non-standard computing systems such as weapon systems.  
+  assessments of non-standard computing systems such as weapon systems.
   Supported the Information Technology Services Department during major
   intrusions and intrusion attempts and consulted on the security assessment
   and purchase of various enterprise security technologies.
