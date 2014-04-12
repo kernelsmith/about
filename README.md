@@ -2,14 +2,16 @@ About =====
 
 The man behind the legend  ;)
 
-##The Man:  Joshua Smith
+## The Man:  Joshua Smith
 * Senior Security Researcher
 * RHCSA, CISSP, CEH
 * kernelsmith@metasploit.com
 
-### Objective To make things and break things.  Great things.  To work with
-great people who like to do the same.  To eventually manage people and projects
-focused on making great things aimed at breaking things.
+### Objective
+
+To make things and break things.  Great things.  To work with great people who
+like to do the same.  To eventually manage people and projects focused on making
+great things aimed at breaking things.
 
 ## The Legend:
 
