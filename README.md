@@ -2,7 +2,7 @@
 
 The man behind the legend  ;)
 
-## The Man:  Joshua Smith
+## The Man:  Joshua Smith "kernelsmith"
 * Senior Security Researcher
 * RHCSA, CISSP, CEH
 * kernelsmith@metasploit.com
@@ -12,6 +12,26 @@ The man behind the legend  ;)
 To make things and break things.  Great things.  To work with great people who
 like to do the same.  To eventually manage people and projects focused on making
 great things aimed at breaking things.
+
+### Bio
+
+Kernelsmith is a "jack-of-all" trades.  He has a BS in aeronautical engineering
+from Rensselaer Polytechnic Institue in Troy, NY and an MA in Management of
+Information Systems from the University of Great Falls, MT.  He also started an
+MS in Computer Science from Johns Hopkins University, but decided that playing
+with his kids and hacking were more important.  Josh spent the first decade of
+his professional career as an officer in the U.S. Air Force where he had many
+odd jobs including nuclear ICBM launch officer, systems engineer, and action
+officer for a 3-star general.  Most importantly however, he was lucky enough to
+land at the 92d Information Warfare Aggressor Squadron (later Information
+Operations Squadron).  At the 92d (yes, that's how the military says 92nd), he
+was finally allowed to get his hands dirty with vulnerability assessments,
+pentests, and red teaming.  Post-military, he became a security engineer at the
+Johns Hopkins Univ. Applied Physics Lab (JHUAPL) doing and learning all sorts of
+cool stuff, most of it classified, but also started contributing to the
+Metasploit Framework.  Josh is now very humbled to be both a Metasploit
+developer and a security researcher at the Zero Day Initiative where he gets to
+reverse engineer all sorts of cool 0-day.
 
 ## The Legend:
 
