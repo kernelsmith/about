@@ -4,14 +4,14 @@ The man behind the legend  ;)
 
 ## The Man:  Joshua Smith "kernelsmith"
 * Senior Security Researcher
-* RHCSA, CISSP, CEH
-* kernelsmith@metasploit.com
+* RHCSA, CISSP (#101330), CEH
+* kernelsmith@kernelsmith.com
 
 ### Objective
 
 To make things and break things.  Great things.  To work with great people who
 like to do the same.  To eventually manage people and projects focused on making
-great things aimed at breaking things.
+great things aimed at breaking things or preventing said breakage.
 
 ### Bio
 
@@ -140,7 +140,7 @@ far most proficient in Ruby.
   with most tools present on pentesting distros.
 * I am proficient with most debugging and static-analysis tools, windbg(6), 
   IDA Pro(6), Immunity Debugger(6), gdb(4)
-* Very proficient in Windows batch & 'nix shell (BASH) scripting(8),
+* Very proficient in Windows batch & 'nix shell (BASH) scripting(8), Python(4)
   and Ruby(8), including multiple Metasploit contributions, and was entrusted
   as a external developer with full commit rights.
 * Extremely comfortable in Windows(9), Linux(9), and OS X(8) command-line and
@@ -160,7 +160,7 @@ far most proficient in Ruby.
   Debugger (5), WinDbg (6), some GDB (3), and malware analysis (5) & reverse
   engineering (4) techniques.
 * Capable exploit developer for Windows on x86(6)/x64(5), Linux on
-  x86(5)/x64(5), OS X on x64(4), also various on MIPS (2). 
+  x86(5)/x64(5), OS X on x64(4), also various on MIPS (3). 
 
 ### Major Publications and Honors
  * Presentation, "Anatomy of a Chinese Intrusion into a Research EDU", 19 Apr
