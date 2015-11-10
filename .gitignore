@@ -16,3 +16,9 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# tmp files
+*~
+*.swp
+*.swo
+.DS_Store
