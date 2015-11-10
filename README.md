@@ -1,8 +1,6 @@
 #About
 
-The man behind the legend  ;)
-
-## The Man:  Joshua Smith "kernelsmith"
+## Joshua Smith "kernelsmith"
 * Senior Security Researcher
 * RHCSA, CISSP (#101330), CEH
 * kernelsmith@kernelsmith.com
@@ -10,8 +8,8 @@ The man behind the legend  ;)
 ### Objective
 
 To make things and break things.  Great things.  To work with great people who
-like to do the same.  To eventually manage people and projects focused on making
-great things aimed at breaking things or preventing said breakage.
+like to do the same.  To architect teams and solutions focused on breaking things  
+and preventing said breakage.
 
 ### Bio
 
@@ -31,9 +29,10 @@ Johns Hopkins Univ. Applied Physics Lab (JHUAPL) doing and learning all sorts of
 cool stuff, most of it classified, but also started contributing to the
 Metasploit Framework.  Josh is now very humbled to be both a Metasploit
 developer and a security researcher at the Zero Day Initiative where he gets to
-reverse engineer all sorts of cool 0-day.
+reverse engineer all sorts of cool 0-day and architect and implement solutions 
+to challenges facing the "world's largest, vendor-agnostic, bug bounty program".
 
-## The Legend:
+## Background
 
 ### Experience
 
