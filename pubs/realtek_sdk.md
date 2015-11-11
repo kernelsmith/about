@@ -73,7 +73,7 @@ Register v0 will also contain the return value of `sprintf` (the number of bytes
 
 Therefore, if an attacker can put anything into "attacker_data" that terminates the echo command, arbitrary commands can be run.  In this case, not surprisingly, those commands are run as root.  There are some speed bumps on the way to exploitation since the device is stripped of most file transfer utilities and the added port mapping has some restrictions that limit, but don't eliminate, code execution vectors.  Although only miniigd v1.07 was tested, every copy of the binary gathered from public sources had this version and the same vulnerability.
 
-Some readers may be thinking they've previously seen this vulnerability, and they would be somewhat correct.  Determining whether this is a new vulnerability or not turned out to be quite a challenge and required significant research.  Ultimately, the responsible binary is miniigd and advertises itself as "OS 1.0 UPnP/1.0 Realtek/V1.3" on UDP:1900; however, its service description offers a "Server: miniupnpd/1.0 UPnP/1.0" banner on TCP:52869.  Additionally, miniigd appears to share a lot of code with LinuxIGD.  The command injection vulnerability was long ago fixed in both the MiniUPnP and LinuxIGD projects.  MiniUPnP actually removed all calls to system.
+Some readers may be thinking they've previously seen this vulnerability, and they would be somewhat correct.  Determining whether this is a new vulnerability or not turned out to be quite a challenge and required significant research.  Ultimately, the responsible binary is miniigd and advertises itself as "OS 1.0 UPnP/1.0 Realtek/V1.3" on UDP:1900; however, its service description offers a "Server: miniupnpd/1.0 UPnP/1.0" banner on TCP:52869.  Additionally, miniigd appears to share a lot of code with LinuxIGD.  The command injection vulnerability was long ago fixed in both the MiniUPnP and LinuxIGD projects.  MiniUPnP actually removed all calls to system.  ![UPnP][upnp]
 
 To further muddy the waters, the maintainer of the MiniUPnP project, Thomas Bernard, was consulted and his brief assessment was:  "I guess it [miniigd] is affected by the same vulnerabilities as the old version of miniupnpd is forked from." Doing a quick strings comparison gave him the impression that miniigd left "SSDP/description generation/SOAP/HTTP code from miniupnpd quite unchanged, but added table initialization into the binary (calling iptable through `system()`)."   Calls to iptable were long ago removed from both the MiniUPnP and LinuxIGD projects.
 
@@ -86,9 +86,7 @@ It's difficult to predict which devices are affected without testing each device
 The impact to an affected device has not changed since the 1990's, when this class of vulnerability should probably have been eradicated.  However, the current explosion of devices following this type of development path drastically exacerbates the industry-wide impact.
 
 Though the warning bell has been sounded previously, apparently not every developer has heard it.  There's absolutely no reason to echo strings to a file in a C/C++ program.  Simply writing to a file on the system, as is very commonly done, should be done using standard file I/O.  Not to mention there are safer ways to invoke the system commands, such as with execve().
-According to the website Shodan (from which the heat map below is drawn), [almost 850,000 devices](https://www.shodan.io/search?query=realtek+port%3A%221900%22) that expose this functionality to the public Internet are possibly vulnerable.
-
-### Image here
+According to the website Shodan (from which the heat map below is drawn), [almost 850,000 devices](https://www.shodan.io/search?query=realtek+port%3A%221900%22) that expose this functionality to the public Internet are possibly vulnerable.  ![shodan_vuln_heatmap][shodan]
 
 Shodan data is not free of false positives, however, so this should be viewed as an upper bound. Data from the Sonar project (dated 2015-04-27) indicates there are nearly 158,000 devices that are almost certainly vulnerable.
 
@@ -108,3 +106,6 @@ SDK suppliers are just as responsible as product vendors and should be held acco
 However, it's clear that SDKs are mostly ignored when it comes to security updates and their developers do not appear to be taking any proactive, or in some cases even reactive, steps to help ensure the security of the ever-growing "Internet of Things."  At a minimum SDKs should be actively maintained if the SDK is still being provided to product vendors.  Ideally, this article will open the door for discussion of SDK security updates and how the process can be improved for IoT as well as mobile devices.  For some SDK providers, it appears the kitchen sink may not be the only thing not included.
 
 *Many thanks to TippingPoint security researcher Ricky Lawshae who discovered this vulnerability and volunteered his time and his TEW-731BR to this effort.*
+
+[shodan]: https://raw.githubusercontent.com/kernelsmith/about/master/pubs/media/Shodan.png
+[upnp]: https://raw.githubusercontent.com/kernelsmith/about/master/pubs/media/PNP.png
