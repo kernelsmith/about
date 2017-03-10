@@ -4,12 +4,12 @@
 * Senior Security Researcher
 * RHCSA, CISSP (#101330), CEH
 * kernelsmith@kernelsmith.com
+* [LinkedIn](https://www.linkedin.com/in/kernelsmith/)
 
 ### Objective
 
-To make things and break things.  Great things.  To work with great people who
-like to do the same.  To architect teams and solutions focused on breaking things  
-and preventing said breakage.
+To make things and break things. To work with great people who like to do the same. 
+To architect teams and solutions focused on breaking things and preventing said breakage.
 
 ### Bio
 
@@ -51,12 +51,12 @@ far most proficient in Ruby.
 
 ####Long Version
 
-* Senior Security Researcher, Hewlett-Packard's Zero Day Initiative, Austin, TX
+* Senior Security Researcher, Hewlett-Packard/Trend Micro's Zero Day Initiative, Austin, TX
   July 2013 - Present
 
   Evaluate and reverse engineer submitted and self-discovered zero-day
   vulnerabilities for exploitability, root-cause analysis, and submission to
-  affected vendors for remediation.  Design and maintain internal resources
+  affected vendors for remediation.  Architect and maintain internal resources
   for tracking and discovering vulnerabilities as well as intellectual
   property management.
 
@@ -161,24 +161,33 @@ far most proficient in Ruby.
 * Capable exploit developer for Windows on x86(6)/x64(5), Linux on
   x86(5)/x64(5), OS X on x64(4), also various on MIPS (3). 
 
-### Major Publications and Honors
- * Presentation, "Anatomy of a Chinese Intrusion into a Research EDU", 19 Apr
-   2013, InfoSecSouthWest, Austin, TX
- * Magzine Article, “My Experiences with the Metasploit Framework:  From N00b to
-   Contributor”, PenTest Magazine, Vol2 No. 9 ISSN: 2084-1116, Issue 09/2012
-  September, pgs 35-52
- * Presentation, “Metasploit: Hacker's Swiss Army Knife”, co-presenter: Jonathan
-   Cran, Rapid7, 16 Nov 2011, Source Barcelona, Barcelona Spain
+### Major Publications, Honors, and Appearances
+ * Quotation: [DarkReading](http://www.darkreading.com/vulnerabilities---threats/browser-exploits-increasingly-go-for-the-jugular/d/d-id/1326461)
+   * 1 Aug 2016
+ * Appearance: [Viceland's "CYBERWAR: The Zero Day Market"](https://youtu.be/UPXctbdBth0?t=447), uncredited
+ * Presentation: ["High Def Fuzzing: Exploring Vulnerabilities in HDMI CEC"](https://www.youtube.com/watch?v=zWoyC6wDDfU)
+   * DefCon23, 8 Aug 2015, Las Vegas, NV
+ * Appearance: [fortune.com](http://fortune.com/2014/03/14/chinese-hacker-cracks-safari-wins-62-5k-praises-apples-security/)
+   * Pwn2Own 2014, 14 Mar 2014
+ * Presentation: "Anatomy of a Chinese Intrusion into a Research EDU"
+   * InfoSecSouthWest, 19 Apr 2013, Austin, TX
+ * Magzine Article: “My Experiences with the Metasploit Framework:  From N00b to Contributor”
+   * PenTest Magazine, Vol2 No. 9 ISSN: 2084-1116, Issue 09/2012, September, pgs 35-52
+ * Presentation: “Metasploit: Hacker's Swiss Army Knife”
+   * Co-presenter: Jonathan Cran, Source Barcelona, 16 Nov 2011, Barcelona Spain
  * Tau Beta Pi (Engineering Honor Society)
- * Academic Scholarships: RPI Merit Scholarship, AFROTC Full Academic
-   Scholarship, University of Great Falls
- * Numerous DoD including Meritorious Service Medal, DoD (2008)
+ * Academic Scholarships:
+   * Merit Scholarship, Rensselaer Polytechnic Institute
+   * AFROTC Full Academic Scholarship
+   * Merit Scholarship, University of Great Falls
+ * Various DoD, including Meritorious Service Medal, 2008
 
 ### Security Clearance
  * Top Secret – 1999 to 2013 (TS/SCI 2005 to 2012)
  * Secret – 1998 to 1999
 
 ### Applicable Training Courses
+ * Jan 2015, "Windows OS Internals for Reverse Engineers", Alex Ionescu
  * Feb 2014, "Practical ARM Exploitation", Stephen {Ridley,Lawler}
  * Jan 2014, "Advanced Tool Development with SMT Solvers", Sean Heelan,
     Persistence Labs
