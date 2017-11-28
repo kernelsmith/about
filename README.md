@@ -1,4 +1,4 @@
-#About
+# About
 
 ## Joshua Smith "kernelsmith"
 * Senior Security Researcher
@@ -36,7 +36,7 @@ to challenges facing the "world's largest, vendor-agnostic, bug bounty program".
 
 ### Experience
 
-####Short Version
+#### Short Version
 
 Extensive experience in executing and managing network vulnerability assessments
 & penetration tests.  Skilled in network vulnerability analysis including
@@ -49,7 +49,7 @@ navigate easily in Windows/Linux/Unix/OS X command-line and graphical
 environments.  Capable in multiple programming and scripting languages, but by
 far most proficient in Ruby.
 
-####Long Version
+#### Long Version
 
 * Senior Security Researcher, Hewlett-Packard/Trend Micro's Zero Day Initiative, Austin, TX
   July 2013 - Present
@@ -162,19 +162,14 @@ far most proficient in Ruby.
   x86(5)/x64(5), OS X on x64(4), also various on MIPS (3). 
 
 ### Major Publications, Honors, and Appearances
- * Quotation: [DarkReading](http://www.darkreading.com/vulnerabilities---threats/browser-exploits-increasingly-go-for-the-jugular/d/d-id/1326461)
-   * 1 Aug 2016
+ * Presentation: VMware Escapology [video](https://www.youtube.com/watch?v=uRemWLNBSZg), [slides & code](https://github.com/thezdi/derbycon2017), DerbyCon 7.0, 22 Sep 2017, Louisville, KY
+ * Quotation: [DarkReading](http://www.darkreading.com/vulnerabilities---threats/browser-exploits-increasingly-go-for-the-jugular/d/d-id/1326461), 1 Aug 2016
  * Appearance: [Viceland's "CYBERWAR: The Zero Day Market"](https://youtu.be/UPXctbdBth0?t=447), uncredited
- * Presentation: ["High Def Fuzzing: Exploring Vulnerabilities in HDMI CEC"](https://www.youtube.com/watch?v=zWoyC6wDDfU)
-   * DefCon23, 8 Aug 2015, Las Vegas, NV
- * Appearance: [fortune.com](http://fortune.com/2014/03/14/chinese-hacker-cracks-safari-wins-62-5k-praises-apples-security/)
-   * Pwn2Own 2014, 14 Mar 2014
- * Presentation: "Anatomy of a Chinese Intrusion into a Research EDU"
-   * InfoSecSouthWest, 19 Apr 2013, Austin, TX
- * Magzine Article: “My Experiences with the Metasploit Framework:  From N00b to Contributor”
-   * PenTest Magazine, Vol2 No. 9 ISSN: 2084-1116, Issue 09/2012, September, pgs 35-52
- * Presentation: “Metasploit: Hacker's Swiss Army Knife”
-   * Co-presenter: Jonathan Cran, Source Barcelona, 16 Nov 2011, Barcelona Spain
+ * Presentation: ["High Def Fuzzing: Exploring Vulnerabilities in HDMI CEC"](https://www.youtube.com/watch?v=zWoyC6wDDfU), DefCon23, 8 Aug 2015, Las Vegas, NV
+ * Appearance: [fortune.com](http://fortune.com/2014/03/14/chinese-hacker-cracks-safari-wins-62-5k-praises-apples-security/), Pwn2Own, 14 Mar 2014
+ * Presentation: "Anatomy of a Chinese Intrusion into a Research EDU", InfoSecSouthWest, 19 Apr 2013, Austin, TX
+ * Magzine Article: "My Experiences with the Metasploit Framework:  From N00b to Contributor", PenTest Magazine, Vol2 No. 9 ISSN: 2084-1116, Issue 09/2012, September, pgs 35-52
+ * Presentation: "Metasploit: Hacker's Swiss Army Knife", Co-presenter: Jonathan Cran, Source Barcelona, 16 Nov 2011, Barcelona Spain
  * Tau Beta Pi (Engineering Honor Society)
  * Academic Scholarships:
    * Merit Scholarship, Rensselaer Polytechnic Institute
@@ -203,4 +198,3 @@ far most proficient in Ruby.
  * Nov 2009	“Reverse Engineering with IDA Pro”, Chris Eagle
  * Oct 2009	“Short Course in Binary Comprehension & Exploit Analysis”, Bruce
    Dang (Microsoft's Security Response Center)
-
