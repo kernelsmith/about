@@ -2,7 +2,7 @@
 
 ## Joshua Smith "kernelsmith"
 * Senior Security Researcher
-* RHCSA, CISSP (#101330), CEH
+* RHCSA, CISSP (#[101330](https://webportal.isc2.org/custom/CertificationVerificationResults.aspx?FN=Joshua&LN=Smith&CN=101330)), CEH
 * kernelsmith@kernelsmith.com
 * [LinkedIn](https://www.linkedin.com/in/kernelsmith/)
 
