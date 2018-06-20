@@ -27,7 +27,7 @@ was finally allowed to get his hands dirty with vulnerability assessments,
 pentests, and red teaming.  Post-military, he became a security engineer at the
 Johns Hopkins Univ. Applied Physics Lab (JHUAPL) doing and learning all sorts of
 cool stuff, most of it classified, but also started contributing to the
-Metasploit Framework.  Josh is was very humbled to become both a Metasploit
+Metasploit Framework.  Josh was very humbled to become both a Metasploit
 developer and a security researcher at the Zero Day Initiative where he gets to
 reverse engineer all sorts of cool 0-day and architect and implement solutions 
 to challenges facing the "world's largest, vendor-agnostic, bug bounty program".
