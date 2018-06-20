@@ -27,7 +27,7 @@ was finally allowed to get his hands dirty with vulnerability assessments,
 pentests, and red teaming.  Post-military, he became a security engineer at the
 Johns Hopkins Univ. Applied Physics Lab (JHUAPL) doing and learning all sorts of
 cool stuff, most of it classified, but also started contributing to the
-Metasploit Framework.  Josh is now very humbled to be both a Metasploit
+Metasploit Framework.  Josh is was very humbled to become both a Metasploit
 developer and a security researcher at the Zero Day Initiative where he gets to
 reverse engineer all sorts of cool 0-day and architect and implement solutions 
 to challenges facing the "world's largest, vendor-agnostic, bug bounty program".
@@ -39,20 +39,21 @@ to challenges facing the "world's largest, vendor-agnostic, bug bounty program".
 #### Short Version
 
 Extensive experience in executing and managing network vulnerability assessments
-& penetration tests.  Skilled in network vulnerability analysis including
+& penetration tests. Skilled in network vulnerability analysis including
 identification and remediation of vulnerabilities, development and application
-of network security technologies, data capture and analysis.  Experienced in
+of network security technologies, data capture and analysis. Experienced in
 computer system/network vulnerability and exploit research and malware
-analysis.  Currently evaluating and reverse engineering submitted and discovered
-zero-day vulnerabilities for exploitability and root-cause analysis. Can
-navigate easily in Windows/Linux/Unix/OS X command-line and graphical
-environments.  Capable in multiple programming and scripting languages, but by
-far most proficient in Ruby.
+analysis. Spent majority of current job evaluating and reverse engineering
+submitted and discovered zero-day vulnerabilities for exploitability and root-cause
+analysis. More recently, focused on architecting and managing a team implementing
+scalable fuzzing infrastructure. Can navigate easily in all major command-line and
+graphical operating system environments as well as most VMware environments.
+Capable in multiple scripting languages, but by far most proficient in Ruby.
 
 #### Long Version
 
-* Senior Security Researcher, Hewlett-Packard/Trend Micro's Zero Day Initiative, Austin, TX
-  July 2013 - Present
+* FuzzOps Manager & Senior Security Researcher, Hewlett-Packard/Trend Micro's
+  Zero Day Initiative, Austin, TX  July 2013 - Present
 
   Evaluate and reverse engineer submitted and self-discovered zero-day
   vulnerabilities for exploitability, root-cause analysis, and submission to
@@ -162,6 +163,7 @@ far most proficient in Ruby.
   x86(5)/x64(5), OS X on x64(4), also various on MIPS (3). 
 
 ### Major Publications, Honors, and Appearances
+ * Presentation: How (Not) to Fix Command Injection Vulnerabilities, BSides Austin, 8 Mar 2018, Austin, TX
  * Presentation: VMware Escapology [video](https://www.youtube.com/watch?v=uRemWLNBSZg), [slides & code](https://github.com/thezdi/derbycon2017), DerbyCon 7.0, 22 Sep 2017, Louisville, KY
  * Quotation: [DarkReading](http://www.darkreading.com/vulnerabilities---threats/browser-exploits-increasingly-go-for-the-jugular/d/d-id/1326461), 1 Aug 2016
  * Appearance: [Viceland's "CYBERWAR: The Zero Day Market"](https://youtu.be/UPXctbdBth0?t=447), uncredited
