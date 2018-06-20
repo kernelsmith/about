@@ -59,7 +59,8 @@ Capable in multiple scripting languages, but by far most proficient in Ruby.
   vulnerabilities for exploitability, root-cause analysis, and submission to
   affected vendors for remediation.  Architect and maintain internal resources
   for tracking and discovering vulnerabilities as well as intellectual
-  property management.
+  property management. Collabroate with, and automate data submission to, Mitre
+  CVE Program. 
 
 * Senior Security Researcher, NSS Labs, Austin, TX  2012 - 2013
 
