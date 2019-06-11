@@ -1,7 +1,7 @@
 # About
 
 ## Joshua Smith "kernelsmith"
-* Senior Security Researcher
+* Senior Manager and Security Researcher
 * RHCSA, CISSP (#[101330](https://webportal.isc2.org/custom/CertificationVerificationResults.aspx?FN=Joshua&LN=Smith&CN=101330)), CEH
 * kernelsmith@kernelsmith.com
 * [LinkedIn](https://www.linkedin.com/in/kernelsmith/)
@@ -52,8 +52,7 @@ Capable in multiple scripting languages, but by far most proficient in Ruby.
 
 #### Long Version
 
-* FuzzOps Manager & Senior Security Researcher, Hewlett-Packard/Trend Micro's
-  Zero Day Initiative, Austin, TX  July 2013 - Present
+* Vulnerability Intelligence Senior Manager & Security Researcher, HPE/Trend Micro's
 
   Evaluate and reverse engineer submitted and self-discovered zero-day
   vulnerabilities for exploitability, root-cause analysis, and submission to
