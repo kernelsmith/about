@@ -140,7 +140,7 @@ Capable in multiple scripting languages, but by far most proficient in Ruby.
   with most tools present on pentesting distros.
 * I am proficient with most debugging and static-analysis tools, windbg(6), 
   IDA Pro(6), Immunity Debugger(6), gdb(4)
-* Very proficient in Windows batch & 'nix shell (BASH) scripting(8), Python(4)
+* Very proficient in Windows batch & 'nix shell (BASH) scripting(8), Python(5)
   and Ruby(8), including multiple Metasploit contributions, and was entrusted
   as a external developer with full commit rights.
 * Extremely comfortable in Windows(9), Linux(9), and OS X(8) command-line and
@@ -154,11 +154,9 @@ Capable in multiple scripting languages, but by far most proficient in Ruby.
   network security technologies(7), and data capture and analysis(7).
 * Experienced with most virtualization technologies: Vmware (Player/Workstation)
   (8), Fusion(8), ESXi (8)), VirtualBox (7), and some QEMU (3) usage.
-* Familiar with, but not active in, multiple programming and scripting languages
-  including C/C++ (4), Java (4), Python (4), VB Script (4), VB.net (3) and
+* Familiar with, but not active in, multiple other programming and scripting
+  languages including C/C++ (4), Java (4), VB Script (4), VB.net (3) and
   32-bit MIPS (6) and Intel x86 Assembly (6).
-  Debugger (5), WinDbg (6), some GDB (3), and malware analysis (5) & reverse
-  engineering (4) techniques.
 * Capable exploit developer for Windows on x86(6)/x64(5), Linux on
   x86(5)/x64(5), OS X on x64(4), also various on MIPS (3). 
 
@@ -168,6 +166,7 @@ Capable in multiple scripting languages, but by far most proficient in Ruby.
  * Quotation: [DarkReading](http://www.darkreading.com/vulnerabilities---threats/browser-exploits-increasingly-go-for-the-jugular/d/d-id/1326461), 1 Aug 2016
  * Appearance: [Viceland's "CYBERWAR: The Zero Day Market"](https://youtu.be/UPXctbdBth0?t=447), uncredited
  * Presentation: ["High Def Fuzzing: Exploring Vulnerabilities in HDMI CEC"](https://www.youtube.com/watch?v=zWoyC6wDDfU), DefCon23, 8 Aug 2015, Las Vegas, NV
+ * Article: [Software Development KITchen Sink (Realtek SDK vulnerabilities)](https://github.com/kernelsmith/about/blob/master/pubs/realtek_sdk.md), 2014
  * Appearance: [fortune.com](http://fortune.com/2014/03/14/chinese-hacker-cracks-safari-wins-62-5k-praises-apples-security/), Pwn2Own, 14 Mar 2014
  * Presentation: "Anatomy of a Chinese Intrusion into a Research EDU", InfoSecSouthWest, 19 Apr 2013, Austin, TX
  * Magzine Article: "My Experiences with the Metasploit Framework:  From N00b to Contributor", PenTest Magazine, Vol2 No. 9 ISSN: 2084-1116, Issue 09/2012, September, pgs 35-52
