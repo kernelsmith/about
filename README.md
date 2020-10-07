@@ -183,6 +183,8 @@ Capable in multiple scripting languages, but by far most proficient in Ruby.
  * Secret – 1998 to 1999
 
 ### Applicable Training Courses
+ * Dec 2017, "Secure DevOps & Cloud App Security Training", SANS
+ * 2016, "Intermediate Chef", Chef.io
  * Jan 2015, "Windows OS Internals for Reverse Engineers", Alex Ionescu
  * Feb 2014, "Practical ARM Exploitation", Stephen {Ridley,Lawler}
  * Jan 2014, "Advanced Tool Development with SMT Solvers", Sean Heelan,
@@ -199,3 +201,5 @@ Capable in multiple scripting languages, but by far most proficient in Ruby.
  * Nov 2009	“Reverse Engineering with IDA Pro”, Chris Eagle
  * Oct 2009	“Short Course in Binary Comprehension & Exploit Analysis”, Bruce
    Dang (Microsoft's Security Response Center)
+ * 2006 "Red Team Operator's Course", US Air Force
+ * 2005 "Intro to Cisco Networking", "TCP-IP Essentials", "Blue Team Operator's Course"
