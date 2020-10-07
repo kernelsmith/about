@@ -1,9 +1,13 @@
 # About
+Joshua Smith, kernelsmith at kernelsmith dot com
 
-## Joshua Smith "kernelsmith"
-* Senior Manager and Security Researcher
-* RHCSA, CISSP (#[101330](https://webportal.isc2.org/custom/CertificationVerificationResults.aspx?FN=Joshua&LN=Smith&CN=101330)), CEH
-* kernelsmith@kernelsmith.com
+## Summary
+* Vulnerability Intelligence Senior Manager and Security Researcher
+* RHCSA (2008, RHEL 5), CISSP (#[101330](https://webportal.isc2.org/custom/CertificationVerificationResults.aspx?FN=Joshua&LN=Smith&CN=101330)), CEH (2007)
+* Master's Degree in Management of Information Systems
+* Ruby, SecDevOps, Hybrid Cloud, VMware, Metasploit Dev, GDPR, Pentesting,
+  Vulnerability Assessments, Reverse Engineering, Information Security Policy
+* Veteran, 20 Professional Years, 10 Years in the USAF, 15 in Information Security  
 * [LinkedIn](https://www.linkedin.com/in/kernelsmith/)
 
 ### Objective
@@ -13,24 +17,22 @@ To architect teams and solutions focused on breaking things and preventing said 
 
 ### Bio
 
-Kernelsmith is a "jack-of-all" trades.  He has a BS in aeronautical engineering
-from Rensselaer Polytechnic Institue in Troy, NY and an MA in Management of
-Information Systems from the University of Great Falls, MT.  He also started an
-MS in Computer Science from Johns Hopkins University, but decided that playing
-with his kids and hacking were more important.  Josh spent the first decade of
-his professional career as an officer in the U.S. Air Force where he had many
-odd jobs including nuclear ICBM launch officer, systems engineer, and action
-officer for a 3-star general.  Most importantly however, he was lucky enough to
+Kernelsmith is a "jack-of-all" trades.  He has a BS in aeronautical engineering and
+an MA in Management of Information Systems. He also started an MS in Computer Science,
+but decided that playing with his kids and hacking were more fun and important.  Josh
+spent the first decade of his professional career as an officer in the U.S. Air Force
+where he had many odd jobs including nuclear ICBM launch officer, systems engineer, and
+action officer for a 3-star general.  Most importantly however, he was lucky enough to
 land at the 92d Information Warfare Aggressor Squadron (later Information
-Operations Squadron).  At the 92d (yes, that's how the military says 92nd), he
-was finally allowed to get his hands dirty with vulnerability assessments,
-pentests, and red teaming.  Post-military, he became a security engineer at the
+Operations Squadron).  At the 92d (yes, that's how the military says 92nd), he was
+finally allowed to get his hands dirty with vulnerability assessments, pentests, and
+red teaming.  Post-military, he became a security engineer at the
 Johns Hopkins Univ. Applied Physics Lab (JHUAPL) doing and learning all sorts of
-cool stuff, most of it classified, but also started contributing to the
-Metasploit Framework.  Josh was very humbled to become both a Metasploit
-developer and a security researcher at the Zero Day Initiative where he gets to
-reverse engineer all sorts of cool 0-day and architect and implement solutions 
-to challenges facing the "world's largest, vendor-agnostic, bug bounty program".
+cool stuff, most of it classified, but also started contributing to the Metasploit
+Framework.  Josh was very humbled to become an external Metasploit developer as well as
+a security researcher at the Zero Day Initiative where he got to reverse engineer all
+sorts of cool 0-day vulnerabilities and architect and implement solutions to challenges
+facing the "world's largest, vendor-agnostic, bug bounty program".
 
 ## Background
 
@@ -159,6 +161,8 @@ Capable in multiple scripting languages, but by far most proficient in Ruby.
   32-bit MIPS (6) and Intel x86 Assembly (6).
 * Capable exploit developer for Windows on x86(6)/x64(5), Linux on
   x86(5)/x64(5), OS X on x64(4), also various on MIPS (3). 
+
+## Supplemental Information
 
 ### Major Publications, Honors, and Appearances
  * Presentation: How (Not) to Fix Command Injection Vulnerabilities, BSides Austin, 8 Mar 2018, Austin, TX
