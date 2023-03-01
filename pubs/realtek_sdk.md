@@ -1,6 +1,6 @@
 # Software Development KITchen sink
 
-*This article was adapted from, and originally published at http://community.hpe.com/t5/Security-Research/Software-Development-KITchen-sink/ba-p/6745115 (no longer active*
+*This article was adapted from, and originally published at http://community.hpe.com/t5/Security-Research/Software-Development-KITchen-sink/ba-p/6745115 (no longer active)*
 
 **CVE-2014-8361 (ZDI-15-155), recently disclosed by the Zero Day Initiative, provides a depressing example of why near-intractable vulnerabilities will continue to plague the tech industry - and will only get worse as we fully embrace the Internet of Things.**
 
