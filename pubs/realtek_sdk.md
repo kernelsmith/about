@@ -44,29 +44,29 @@ The TRENDnet TEW-731BR router with firmware v1.02b05, released in June 2014, uti
 
 The daemon suffers from command injection vulnerabilities when handling NewInternalClient requests.  Multiple XML values can be abused because they are not sanitized. Moreover they are, inexplicably, written to a temporary file using shell redirection instead of simply writing a file using the C language's standard file I/O functions.  At a minimum, the code should utilize `execve()`instead of `system()`; using `system()` in this case is a well-known bad practice and is specifically highlighted by [CERT's C coding standard](https://www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=2130132).  Writing this file using C file I/O functions would arrest this particular form of command injection, but the fields should still be sanitized in case the temporary file is used dangerously (e.g. it is "sourced" or parsed dangerously) at a later point.  This vulnerability is not novel and has been discovered previously in some of the other IGD implementations, but the hardware SDK developers do not seem to learn from others' mistakes.  The crux of the vulnerability is detailed in the MIPS assembly below:
 
-```
+```asy
 LOAD:0040997C:
 
-addiu   $v0, (aTmpUpnp_info - 0x410000) # (1) "/tmp/upnp_info"
-addiu   $a1, (aEchoSSSSNaSS - 0x410000) # (2) "echo \"%s,%s,%s,%s,NA,%s\" >> %s"
-move    $a3, $s7                        # (3) Move function arg into a3
-addiu   $a0, $sp, 0x178+var_F0          # (4) Move stack var var_F0 into a0 (like lea)
-sw      $s6, 0x178+var_168($sp)         # (5) Write key-value pair values to stack.
-sw      $s1, 0x178+var_164($sp)         #     these values are attacker controlled.
-sw      $s0, 0x178+var_160($sp)         #     Refer to prior instructions (not shown).
-jalr    $t9 ; sprintf                   # (6) sprintf(a0_dest,a1_fmt,a2,a3,stack+)
-sw      $v0, 0x178+var_15C($sp)         # (7) Store result on stack
-lw      $gp, 0x178+var_158_maxsize4($sp)# (8) Restore global pointer (convention)
+addiu   $v0, (aTmpUpnp_info - 0x410000)   # (1) "/tmp/upnp_info"                         #
+addiu   $a1, (aEchoSSSSNaSS - 0x410000)   # (2) "echo \"%s,%s,%s,%s,NA,%s\" >> %s"       #
+move    $a3, $s7                          # (3) Move function arg into a3                #
+addiu   $a0, $sp, 0x178+var_F0            # (4) Move stack var var_F0 into a0 (like lea) #
+sw      $s6, 0x178+var_168($sp)           # (5) Write key-value pair values to stack.    #
+sw      $s1, 0x178+var_164($sp)           #     these values are attacker controlled.    #
+sw      $s0, 0x178+var_160($sp)           #     Refer to prior instructions (not shown). #
+jalr    $t9 ; sprintf                     # (6) sprintf(a0_dest,a1_fmt,a2,a3,stack+)     #
+sw      $v0, 0x178+var_15C($sp)           # (7) Store result on stack                    #
+lw      $gp, 0x178+var_158_maxsize4($sp)  # (8) Restore global pointer (convention)      #
 nop
-la      $t9, system                     # (9) Load addr of imported "system" function
+la      $t9, system                       # (9) Load addr of imported "system" function  #
 nop
-jalr    $t9 ; system                    # (10) exec "echo \"$evil\" >> /tmp/upnp_info"
+jalr    $t9 ; system                      # (10) exec "echo \"$evil\" >> /tmp/upnp_info" #
 ```
 At location 1, a pointer to the string `"/tmp/upnp_info"` is stored in register v0.  At location 2, a pointer to the string `"echo \"%s,%s,%s,%s,NA,%s\" >> %s"` is stored in register a1.  The value of register s7, which is copied to register a3 at location 3, was populated by the return value of `GetValueFromNameValueList` (not shown).  `GetValueFromNameValueList` retrieves the value from a key-value pair list (aka a hash, map, or dictionary structure).  The attacker, when submitting the `AddPortMapping` SOAP request, controls these values.
 
 Next, the address of `var_F0` (a 200-byte stack buffer) is loaded into register a0, which will be the destination for the `sprintf` output.  Incidentally, this is a possible stack buffer overflow vulnerability in the making if the buffer's input is not limited elsewhere to 200 bytes minus the length of the static strings going into the buffer.  The three instructions at location 5 are moving additional values onto the stack for use by sprintf.  Location 6 is the MIPS-equivalent to a `call` in Intel syntax and calls `sprintf`.  The calling [convention](http://inst.eecs.berkeley.edu/~cs61c/sp05/hw/proj2/) for `sprintf` has arg0 as the destination for the write, arg1 as the format specifier, and as many additional arguments as needed to fulfill the format specifier.  Any arguments beyond arg2 and arg3 are passed on the stack (location 5).  Location 7 stores the return value of the `sprintf` call. The application is essentially running the following pseudocode:
 
-```
+```C
 var_15C = sprintf(var_F0, "echo \"%s,%s,%s,%s,NA,%s\" >> %s", attacker_controlled_args)
 ```
 Register v0 will also contain the return value of `sprintf` (the number of bytes written) and a0 still points to the string buffer which now contains attacker-controlled data akin to `echo "attacker_data" >> /tmp/upnp_info"`.  The global pointer register is restored at location 8, which is part of a MIPS convention that [dictates](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Mips/altReg.html) a function callee must preserve gp.  Location 9 loads the address of the imported `system()` function and location 10 calls that address.
@@ -90,7 +90,7 @@ According to the website Shodan (from which the heat map below is drawn), [almos
 
 Shodan data is not free of false positives, however, so this should be viewed as an upper bound. Data from the Sonar project (dated 2015-04-27) indicates there are nearly 158,000 devices that are almost certainly vulnerable.
 
-```
+```sh
 zcat data.csv.gz |grep 5265616c74656b2f56|cut -d"," -f2 |uniq |wc -l
 ```
 Therefore, the number of actually vulnerable devices that can be publicly addressed is likely between 158,000 and 850,000.  There is no good reason to expose this functionality on a public interface, but it happens frequently -- sometimes on purpose and sometimes accidentally.  According to [UPnPhacks](http://www.upnp-hacks.org/stacks.html), some Realtek boards have a "problem with firewalling." On RTL86xx based boards, at least, UPnP listens on the WAN interface in addition to the internal network.  This is supported by the fact that multiple devices using various UPnP/IGD implementations have the same problem.  The vulnerability may not be present if the product vendor removed or replaced the IGD functionality. However, there is no broad-stroke way to confirm the actions taken.  Obviously the vulnerability is significantly mitigated if miniigd is listening only on the internal network, since it is not directly exposed.  However, there have been so many problems with UPnP implementations, attackers will still have a field day.  Users and administrators should not consider themselves safe just because miniigd is not listening on the public interface.
