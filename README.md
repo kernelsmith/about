@@ -7,7 +7,7 @@ Joshua Smith, kernelsmith at kernelsmith dot com
 * Master's Degree in Management of Information Systems
 * Ruby, SecDevOps, Hybrid Cloud, VMware, Metasploit Dev, GDPR, Pentesting,
   Vulnerability Assessments, Reverse Engineering, Information Security Policy
-* Veteran, 20 Professional Years, 10 Years in the USAF, 15 in Information Security  
+* Veteran, 25 Professional Years, 10 Years in the USAF, 20 in Information Security  
 * [LinkedIn](https://www.linkedin.com/in/kernelsmith/)
 
 ### Objective
